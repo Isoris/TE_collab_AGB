@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T12:53:29.710Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="YklozwkLGqwtZbI-w1BC" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T12:54:09.088Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="XZ96QnPUDxnwukAavZlY" version="24.1.0" type="github">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
     <mxGraphModel dx="1329" dy="1422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -185,7 +185,7 @@
         <mxCell id="AjI9yF0b8auwYNTap7u0-25" value="&lt;div align=&quot;left&quot;&gt;NCBI Genomes database&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Select catfish reference genomes&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Download karyotype assembly TSV&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="AjI9yF0b8auwYNTap7u0-24">
           <mxGeometry y="20" width="255" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="AjI9yF0b8auwYNTap7u0-39" value="&lt;div&gt;1.3 Rename samples&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
+        <mxCell id="AjI9yF0b8auwYNTap7u0-39" value="&lt;div&gt;1.3 Rename samples&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#E1D5E7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
           <mxGeometry x="255" y="12" width="170" height="68" as="geometry">
             <mxRectangle x="230" y="45" width="210" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -193,7 +193,7 @@
         <mxCell id="AjI9yF0b8auwYNTap7u0-40" value="&lt;div&gt;Rename each FASTA to short names e.g., C_gariepinus.fa &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" vertex="1" parent="AjI9yF0b8auwYNTap7u0-39">
           <mxGeometry y="20" width="170" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="1fdf3b25b50cf41e-1" value="&lt;div&gt;1.4 Prepare genomic fasta&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#e0e0e0;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
+        <mxCell id="1fdf3b25b50cf41e-1" value="&lt;div&gt;1.4 Prepare genomic fasta&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#E1D5E7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1" vertex="1">
           <mxGeometry x="462" y="12" width="240" height="92" as="geometry" />
         </mxCell>
         <mxCell id="1fdf3b25b50cf41e-2" value="&lt;div align=&quot;left&quot;&gt;Seqkit to select only chromosome contigs&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Seqkit to sort by --max-len -decreasing&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Seqkit to rename contig headers&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&amp;nbsp;e.g., &amp;gt;C_gariepinus_chr1&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" parent="1fdf3b25b50cf41e-1" vertex="1">
