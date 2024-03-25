@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T12:53:01.968Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="FIa35dry_k5gROYEtlnF" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-25T12:53:11.338Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="QdfXeyXMSARguVDtWbB0" version="24.1.0" type="github">
   <diagram name="Page-1" id="52a04d89-c75d-2922-d76d-85b35f80e030">
     <mxGraphModel dx="1329" dy="1422" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -11,7 +11,7 @@
           <mxGeometry x="910" y="205" width="135" height="50" as="geometry" />
         </mxCell>
         <mxCell id="17472293e6e8944d-29" value="&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Chromosome-level haploid (collapsed) assemblies with chromosomes only&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="760" y="34" width="240" height="46" as="geometry" />
+          <mxGeometry x="740" y="35" width="240" height="46" as="geometry" />
         </mxCell>
         <mxCell id="AjI9yF0b8auwYNTap7u0-46" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="17472293e6e8944d-30" target="AjI9yF0b8auwYNTap7u0-40">
           <mxGeometry relative="1" as="geometry" />
