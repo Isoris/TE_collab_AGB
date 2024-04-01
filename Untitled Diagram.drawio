@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T16:06:18.237Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="0wk-xh9cTy4flgUf9iqE" version="24.1.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-01T16:07:27.940Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="d6s0jqixcCXpjuTejELj" version="24.1.0" type="github" pages="7">
   <diagram name="General_workflow" id="pF3x8TVnUM1P7PzSHhYX">
     <mxGraphModel dx="1206" dy="1535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -30,19 +30,19 @@
         <mxCell id="nPuSZJ4_r9du8BJwvHCm-14" value="&lt;div&gt;&lt;b&gt;Karyotype TSV files&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;by species and containing&amp;nbsp;&lt;/div&gt;&lt;div&gt;only chromosome metadata&lt;br&gt;&lt;/div&gt;" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
           <mxGeometry x="830" y="-350" width="165" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="XuA9jS7Fun2ACh8fOWwt-0" value="&lt;div&gt;2.2 Annotate TE with EDTA &lt;br&gt;+ TE composition + Kimura divergences &amp;nbsp; &lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#FFCE9F;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
-          <mxGeometry x="395" y="-260" width="360" height="100" as="geometry" />
+        <mxCell id="XuA9jS7Fun2ACh8fOWwt-0" value="&lt;div&gt;2.2 Annotate TE with EDTA and study of&amp;nbsp;&lt;/div&gt;&lt;div&gt;TE composition + Kimura divergences in catfish &amp;nbsp; &lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#FFCE9F;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
+          <mxGeometry x="395" y="-270" width="395" height="100" as="geometry" />
         </mxCell>
         <mxCell id="XuA9jS7Fun2ACh8fOWwt-1" value="&lt;div&gt;Annotate TE &lt;b&gt;for samples &lt;/b&gt;with EDTA.pl &lt;br&gt;&lt;/div&gt;&lt;div&gt;Genome wide TE composition of samples&lt;br&gt;Kimura divergences K-values for TE replicative bursts&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="XuA9jS7Fun2ACh8fOWwt-0">
-          <mxGeometry y="40" width="360" height="60" as="geometry" />
+          <mxGeometry y="40" width="395" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XuA9jS7Fun2ACh8fOWwt-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nPuSZJ4_r9du8BJwvHCm-1" target="XuA9jS7Fun2ACh8fOWwt-3">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="755" y="-210" as="sourcePoint" />
+            <mxPoint x="790" y="-210" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XuA9jS7Fun2ACh8fOWwt-3" value="&lt;div&gt;&lt;b&gt;TE libraries&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;for each species&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
-          <mxGeometry x="809" y="-228" width="165" height="36.88" as="geometry" />
+          <mxGeometry x="850" y="-220" width="165" height="36.88" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
