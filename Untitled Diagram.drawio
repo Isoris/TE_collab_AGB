@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T15:07:18.393Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="Zq2W8XZFjAqM2MWkbo1V" version="24.1.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-04-01T15:31:54.251Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="fppfBK_x2iFNwE9iWv9o" version="24.1.0" type="github" pages="5">
   <diagram name="Sample_pre-processing" id="52a04d89-c75d-2922-d76d-85b35f80e030">
-    <mxGraphModel dx="1338" dy="1462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1055" dy="1462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,78 +94,136 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Kjd17YVczxqBOYsQOCY1" name="EDTA_p1">
-    <mxGraphModel dx="1338" dy="1712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1281" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="B6u1tit1Yw2ISfp9a53N-25" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="LiTMKPbCQsVV3bPFt7JO-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="400.0000000000002" y="90" as="targetPoint" />
+            <mxPoint x="400.0000000000002" y="44" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="LiTMKPbCQsVV3bPFt7JO-1" value="&lt;div&gt;&lt;b&gt;Input EDTA&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;${&lt;style type=&quot;text/css&quot;&gt;td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}&lt;/style&gt;genome_species}.fa&lt;/div&gt;&lt;div&gt;${cds_nucleotide_file_NCBI}&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="1">
-          <mxGeometry x="310" y="-25" width="180" height="50" as="geometry" />
+          <mxGeometry x="22" y="20" width="180" height="53" as="geometry" />
         </mxCell>
-        <mxCell id="B6u1tit1Yw2ISfp9a53N-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B6u1tit1Yw2ISfp9a53N-5" target="B6u1tit1Yw2ISfp9a53N-7">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="B6u1tit1Yw2ISfp9a53N-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.502;entryY=0.019;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1.001;exitY=0.275;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="B6u1tit1Yw2ISfp9a53N-36" target="B6u1tit1Yw2ISfp9a53N-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="500" y="50" />
+              <mxPoint x="688" y="50" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="B6u1tit1Yw2ISfp9a53N-5" value="&lt;div&gt;1.2 Run EDTA in CDS mode &lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#E1D5E7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="260" y="60" width="270" height="100" as="geometry" />
+        <mxCell id="B6u1tit1Yw2ISfp9a53N-5" value="&lt;div&gt;1.2 Run EDTA in CDS mode &lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#FFCE9F;" vertex="1" parent="1">
+          <mxGeometry x="230" y="0.5" width="270" height="92" as="geometry" />
         </mxCell>
-        <mxCell id="B6u1tit1Yw2ISfp9a53N-36" value="&lt;div align=&quot;left&quot;&gt;EDTA.pl version 2.2.0&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;step 0 - prepare input directories&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;step 1 - generate sbatch commands&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;step 2 - EDTA on genomes 16 CPU RAM 16GB&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="B6u1tit1Yw2ISfp9a53N-5">
-          <mxGeometry y="20" width="270" height="80" as="geometry" />
+        <mxCell id="B6u1tit1Yw2ISfp9a53N-36" value="&lt;div align=&quot;left&quot;&gt;EDTA.pl version 2.2.0&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;step 0 - prepare input directories&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;step 1 - generate sbatch commands&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;step 2 - EDTA on genomes CPU16-RAM16&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="B6u1tit1Yw2ISfp9a53N-5">
+          <mxGeometry y="20" width="270" height="70" as="geometry" />
         </mxCell>
         <mxCell id="B6u1tit1Yw2ISfp9a53N-27" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="B6u1tit1Yw2ISfp9a53N-7" target="B6u1tit1Yw2ISfp9a53N-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B6u1tit1Yw2ISfp9a53N-7" value="&lt;b&gt;Output&lt;br&gt;&lt;/b&gt;EDTA Summary files" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="1">
-          <mxGeometry x="620" y="160" width="165" height="50" as="geometry" />
+          <mxGeometry x="598" y="173" width="180" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="B6u1tit1Yw2ISfp9a53N-8" value="&lt;div&gt;1.1 Download NCBI Refseq&lt;br&gt; CDS gene annotations&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#E1D5E7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="20" y="-30" width="255" height="80" as="geometry">
+        <mxCell id="YQ9I8WXAiD5hVknMHj9h-32" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6u1tit1Yw2ISfp9a53N-8" target="LiTMKPbCQsVV3bPFt7JO-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="112" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6u1tit1Yw2ISfp9a53N-8" value="&lt;div&gt;1.1 Download NCBI Refseq&lt;br&gt; CDS gene annotations&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#FFCE9F;" vertex="1" parent="1">
+          <mxGeometry x="2" y="-83" width="220" height="80" as="geometry">
             <mxRectangle x="245" y="-106" width="280" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B6u1tit1Yw2ISfp9a53N-9" value="&lt;div align=&quot;left&quot;&gt;NCBI Genomes database&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Select the same catfish genomes.&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Download RefSeq CDS annotations&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="B6u1tit1Yw2ISfp9a53N-8">
-          <mxGeometry y="30" width="255" height="50" as="geometry" />
+          <mxGeometry y="30" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B6u1tit1Yw2ISfp9a53N-19" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="B6u1tit1Yw2ISfp9a53N-8" target="B6u1tit1Yw2ISfp9a53N-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B6u1tit1Yw2ISfp9a53N-21" value="&lt;b&gt;Output&lt;br&gt;&lt;/b&gt;EDTA species TE.lib.fa" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="1">
-          <mxGeometry x="410" y="240" width="165" height="50" as="geometry" />
+        <mxCell id="YQ9I8WXAiD5hVknMHj9h-33" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=-0.002;entryY=0.329;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B6u1tit1Yw2ISfp9a53N-21" target="YQ9I8WXAiD5hVknMHj9h-21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B6u1tit1Yw2ISfp9a53N-21" value="&lt;b&gt;Output&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/b&gt;EDTA GFF3 TE annots" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="1">
+          <mxGeometry x="140" y="173" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B6u1tit1Yw2ISfp9a53N-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.441;entryY=0.04;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B6u1tit1Yw2ISfp9a53N-5" target="B6u1tit1Yw2ISfp9a53N-21">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="125" as="sourcePoint" />
             <mxPoint x="722" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="50" />
+              <mxPoint x="520" y="50" />
+              <mxPoint x="520" y="133" />
+              <mxPoint x="197" y="133" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="B6u1tit1Yw2ISfp9a53N-26" value="&lt;div&gt;- Repeat class&lt;/div&gt;&lt;div&gt;- Repeat family&lt;/div&gt;&lt;div&gt;- TE copy number&lt;/div&gt;&lt;div&gt;- Total masked length (bp.)&lt;/div&gt;&lt;div&gt;- TE family abundance in genome (%)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="581" y="230" width="239" height="80" as="geometry" />
+          <mxGeometry x="552" y="250" width="272" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="B6u1tit1Yw2ISfp9a53N-32" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="B6u1tit1Yw2ISfp9a53N-29" target="B6u1tit1Yw2ISfp9a53N-31">
+        <mxCell id="YQ9I8WXAiD5hVknMHj9h-9" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="B6u1tit1Yw2ISfp9a53N-29" target="YQ9I8WXAiD5hVknMHj9h-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B6u1tit1Yw2ISfp9a53N-29" value="&lt;div&gt;1.2 Combine and parse summary annotations &lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#E1D5E7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="561" y="430" width="280" height="70" as="geometry" />
+        <mxCell id="B6u1tit1Yw2ISfp9a53N-29" value="&lt;div&gt;1.2 Combine and parse summary annotations &lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#FFCE9F;" vertex="1" parent="1">
+          <mxGeometry x="549" y="430" width="280" height="80" as="geometry" />
         </mxCell>
         <mxCell id="B6u1tit1Yw2ISfp9a53N-30" value="&lt;div&gt;Average TE lengths in Siluriformes genomes (%)&lt;/div&gt;&lt;div&gt;Average TE copy number in Siluriformes genomes&lt;br&gt;&lt;/div&gt;&lt;div&gt;Average abundance in Siluriformes genomes (%)&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="B6u1tit1Yw2ISfp9a53N-29">
-          <mxGeometry y="20" width="280" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="B6u1tit1Yw2ISfp9a53N-31" value="&lt;b&gt;Output&lt;/b&gt;&lt;br&gt;Table 1" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="1">
-          <mxGeometry x="618.5" y="530" width="165" height="50" as="geometry" />
+          <mxGeometry y="20" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B6u1tit1Yw2ISfp9a53N-33" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" target="B6u1tit1Yw2ISfp9a53N-34" source="B6u1tit1Yw2ISfp9a53N-26">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="709.5" y="310" as="sourcePoint" />
+            <mxPoint x="617.5" y="330" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B6u1tit1Yw2ISfp9a53N-35" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6u1tit1Yw2ISfp9a53N-34" target="B6u1tit1Yw2ISfp9a53N-29">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="YQ9I8WXAiD5hVknMHj9h-3" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B6u1tit1Yw2ISfp9a53N-34" target="B6u1tit1Yw2ISfp9a53N-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="649" y="420" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="B6u1tit1Yw2ISfp9a53N-34" value="&lt;b&gt;Output&lt;/b&gt;&lt;br&gt;Supplementary Table 2" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="1">
-          <mxGeometry x="617" y="340" width="165" height="50" as="geometry" />
+          <mxGeometry x="591" y="350" width="195" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YQ9I8WXAiD5hVknMHj9h-8" value="&lt;br&gt;&lt;b&gt;Result&lt;/b&gt;&lt;br&gt;Figure 1A in MS" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;size=17;" vertex="1" parent="1">
+          <mxGeometry x="654.5" y="550" width="70" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="YQ9I8WXAiD5hVknMHj9h-10" value="&lt;b&gt;Output&lt;br&gt;&lt;/b&gt;EDTA species TE.lib.fa" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="1">
+          <mxGeometry x="7" y="320" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YQ9I8WXAiD5hVknMHj9h-17" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;shape=link;" edge="1" parent="1" source="YQ9I8WXAiD5hVknMHj9h-12" target="YQ9I8WXAiD5hVknMHj9h-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YQ9I8WXAiD5hVknMHj9h-12" value="&lt;b&gt;Output&lt;br&gt;&lt;/b&gt;EDTA masked genomes " style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="1">
+          <mxGeometry x="7" y="250" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="YQ9I8WXAiD5hVknMHj9h-34" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0.996;exitY=0.322;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.527;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="YQ9I8WXAiD5hVknMHj9h-21" target="B6u1tit1Yw2ISfp9a53N-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="493" y="204" as="sourcePoint" />
+            <mxPoint x="598" y="204" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQ9I8WXAiD5hVknMHj9h-20" value="&lt;div&gt;1.2 Regenerate EDTA summary files &lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#FFCE9F;" vertex="1" parent="1">
+          <mxGeometry x="302" y="162" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YQ9I8WXAiD5hVknMHj9h-21" value="For fragmented TE and for intact TE?" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="YQ9I8WXAiD5hVknMHj9h-20">
+          <mxGeometry y="26" width="220" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="YQ9I8WXAiD5hVknMHj9h-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.507;entryY=0.007;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="YQ9I8WXAiD5hVknMHj9h-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="50" as="sourcePoint" />
+            <mxPoint x="207" y="185" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="50" />
+              <mxPoint x="520" y="120" />
+              <mxPoint x="78" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YQ9I8WXAiD5hVknMHj9h-37" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="B6u1tit1Yw2ISfp9a53N-26" target="B6u1tit1Yw2ISfp9a53N-26">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
