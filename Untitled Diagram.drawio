@@ -1,94 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T16:00:48.053Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="pxENrRaHZoKsCb7gbrop" version="24.1.0" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2024-04-01T16:06:18.237Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="0wk-xh9cTy4flgUf9iqE" version="24.1.0" type="github" pages="7">
   <diagram name="General_workflow" id="pF3x8TVnUM1P7PzSHhYX">
     <mxGraphModel dx="1206" dy="1535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="nPuSZJ4_r9du8BJwvHCm-0" />
         <mxCell id="nPuSZJ4_r9du8BJwvHCm-1" parent="nPuSZJ4_r9du8BJwvHCm-0" />
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-2" value="&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Chromosome-level haploid (collapsed) assemblies with chromosomes only&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
-          <mxGeometry x="740" y="35" width="240" height="46" as="geometry" />
-        </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nPuSZJ4_r9du8BJwvHCm-1" source="nPuSZJ4_r9du8BJwvHCm-4" target="nPuSZJ4_r9du8BJwvHCm-18">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-4" value="&lt;div&gt;&lt;b&gt;Input&lt;/b&gt;&lt;/div&gt;&lt;div&gt;${&lt;style type=&quot;text/css&quot;&gt;td {border: 1px solid #cccccc;}br {mso-data-placement:same-cell;}&lt;/style&gt;genome_species}.fa&lt;/div&gt;&lt;div&gt;${karyotypes_species}.tsv&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
-          <mxGeometry x="40" y="-10" width="180" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-5" style="edgeStyle=none;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endFill=1;endSize=8;fontFamily=Verdana;fontSize=12;" edge="1" parent="nPuSZJ4_r9du8BJwvHCm-1" source="nPuSZJ4_r9du8BJwvHCm-19" target="nPuSZJ4_r9du8BJwvHCm-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-6" style="edgeStyle=orthogonalEdgeStyle;html=1;labelBackgroundColor=none;startFill=0;startSize=8;endFill=1;endSize=8;fontFamily=Verdana;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="nPuSZJ4_r9du8BJwvHCm-1" source="nPuSZJ4_r9du8BJwvHCm-19" target="nPuSZJ4_r9du8BJwvHCm-24">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="540" y="132" />
-              <mxPoint x="610" y="132" />
-            </Array>
-            <mxPoint x="600" y="180" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="nPuSZJ4_r9du8BJwvHCm-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nPuSZJ4_r9du8BJwvHCm-1" source="nPuSZJ4_r9du8BJwvHCm-9" target="nPuSZJ4_r9du8BJwvHCm-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nPuSZJ4_r9du8BJwvHCm-1" source="nPuSZJ4_r9du8BJwvHCm-9" target="nPuSZJ4_r9du8BJwvHCm-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="nPuSZJ4_r9du8BJwvHCm-9" value="&lt;div&gt;&lt;b&gt;Samples&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;17 Siluriformes catfishes genomes&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=Verdana;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
-          <mxGeometry x="425" y="-310" width="245" height="50" as="geometry" />
+          <mxGeometry x="365" y="-470" width="245" height="50" as="geometry" />
         </mxCell>
         <mxCell id="nPuSZJ4_r9du8BJwvHCm-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nPuSZJ4_r9du8BJwvHCm-1" source="nPuSZJ4_r9du8BJwvHCm-11" target="nPuSZJ4_r9du8BJwvHCm-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="ZypOdXy63Kzz2IZZ8zNF-1" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=0.702;exitDx=0;exitDy=0;entryX=-0.005;entryY=0.206;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="nPuSZJ4_r9du8BJwvHCm-1" source="nPuSZJ4_r9du8BJwvHCm-12" target="nPuSZJ4_r9du8BJwvHCm-16">
+        <mxCell id="ZypOdXy63Kzz2IZZ8zNF-1" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;exitX=0;exitY=0.702;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="nPuSZJ4_r9du8BJwvHCm-1" source="nPuSZJ4_r9du8BJwvHCm-12" target="XuA9jS7Fun2ACh8fOWwt-0">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="378.7249999999999" y="-209.69999999999982" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="380" y="-100" />
+              <mxPoint x="320" y="-260" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="nPuSZJ4_r9du8BJwvHCm-11" value="&lt;div&gt;1_sample_preparation&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#E1D5E7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
-          <mxGeometry x="420" y="-210" width="430" height="90" as="geometry" />
+          <mxGeometry x="360" y="-370" width="430" height="90" as="geometry" />
         </mxCell>
         <mxCell id="nPuSZJ4_r9du8BJwvHCm-12" value="Filtering of assemblies for chromosomes, simple naming of files &lt;b&gt;of samples&lt;/b&gt;&lt;br&gt;&lt;div&gt;Obtain CDS files on RefSeq of gene annotations &lt;b&gt;for samples&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Obtain OrthoDB orthogroups files of proteins &lt;b&gt;for&lt;/b&gt; &lt;b&gt;samples&lt;br&gt;&lt;/b&gt;Obtain TimeTree of divergence times&lt;b&gt; for samples&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-11">
           <mxGeometry y="20" width="430" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nPuSZJ4_r9du8BJwvHCm-14" value="&lt;div&gt;&lt;b&gt;Karyotype TSV files&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;by species and containing&amp;nbsp;&lt;/div&gt;&lt;div&gt;only chromosome metadata&lt;br&gt;&lt;/div&gt;" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
-          <mxGeometry x="890" y="-190" width="165" height="50" as="geometry" />
+          <mxGeometry x="830" y="-350" width="165" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-15" value="&lt;div&gt;1.1 Download NCBI Catfish karyotypes&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#E1D5E7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
-          <mxGeometry x="420" y="-110" width="255" height="70" as="geometry">
-            <mxRectangle x="245" y="-106" width="280" height="30" as="alternateBounds" />
+        <mxCell id="XuA9jS7Fun2ACh8fOWwt-0" value="&lt;div&gt;2.2 Annotate TE with EDTA &lt;br&gt;+ TE composition + Kimura divergences &amp;nbsp; &lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;fillColor=#FFCE9F;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
+          <mxGeometry x="395" y="-260" width="360" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="XuA9jS7Fun2ACh8fOWwt-1" value="&lt;div&gt;Annotate TE &lt;b&gt;for samples &lt;/b&gt;with EDTA.pl &lt;br&gt;&lt;/div&gt;&lt;div&gt;Genome wide TE composition of samples&lt;br&gt;Kimura divergences K-values for TE replicative bursts&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="XuA9jS7Fun2ACh8fOWwt-0">
+          <mxGeometry y="40" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XuA9jS7Fun2ACh8fOWwt-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nPuSZJ4_r9du8BJwvHCm-1" target="XuA9jS7Fun2ACh8fOWwt-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="-210" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-16" value="&lt;div align=&quot;left&quot;&gt;NCBI Genomes database&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Select catfish reference genomes&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Download karyotype assembly TSV&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-15">
-          <mxGeometry y="20" width="255" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-17" value="&lt;div&gt;1.3 Rename samples&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#E1D5E7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
-          <mxGeometry x="255" y="12" width="170" height="68" as="geometry">
-            <mxRectangle x="230" y="45" width="210" height="30" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-18" value="&lt;div&gt;Rename each FASTA to short names e.g., C_gariepinus.fa &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=center;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-17">
-          <mxGeometry y="20" width="170" height="32" as="geometry" />
-        </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-19" value="&lt;div&gt;1.4 Prepare genomic fasta&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#E1D5E7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
-          <mxGeometry x="462" y="12" width="240" height="92" as="geometry" />
-        </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-20" value="&lt;div align=&quot;left&quot;&gt;Seqkit to select only chromosome contigs&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Seqkit to sort by --max-len -decreasing&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;Seqkit to rename contig headers&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&amp;nbsp;e.g., &amp;gt;C_gariepinus_chr1&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-19">
-          <mxGeometry y="20" width="240" height="72" as="geometry" />
-        </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nPuSZJ4_r9du8BJwvHCm-1" source="nPuSZJ4_r9du8BJwvHCm-18" target="nPuSZJ4_r9du8BJwvHCm-20">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="nPuSZJ4_r9du8BJwvHCm-1" source="nPuSZJ4_r9du8BJwvHCm-23" target="nPuSZJ4_r9du8BJwvHCm-25">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-23" value="&lt;div&gt;1.4 Split fasta by chromosome&lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#E1D5E7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
-          <mxGeometry x="462" y="130" width="248" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-24" value="&lt;div align=&quot;left&quot;&gt;Seqkit split -i to split genomic fasta by contig headers (chromosomes)&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;div align=&quot;center&quot;&gt;&amp;nbsp;C_gariepinus_chr_1.fa&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;div align=&quot;center&quot;&gt;&lt;div align=&quot;center&quot;&gt;&amp;nbsp;C_gariepinus_chr_2.fa&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;...&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&amp;nbsp;&amp;nbsp; C_gariepinus_chr_28.fa&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-23">
-          <mxGeometry y="20" width="248" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="nPuSZJ4_r9du8BJwvHCm-25" value="&lt;div&gt;&lt;b&gt;Output&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Separate FASTA chromosomes&amp;nbsp;&lt;/div&gt;&lt;div&gt;for each catfish species&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
-          <mxGeometry x="805" y="167" width="240" height="46" as="geometry" />
+        <mxCell id="XuA9jS7Fun2ACh8fOWwt-3" value="&lt;div&gt;&lt;b&gt;TE libraries&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;for each species&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="nPuSZJ4_r9du8BJwvHCm-1">
+          <mxGeometry x="809" y="-228" width="165" height="36.88" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -188,7 +142,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Kjd17YVczxqBOYsQOCY1" name="2_EDTA_p1_annot_TE">
-    <mxGraphModel dx="1281" dy="1843" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1464" dy="1931" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
