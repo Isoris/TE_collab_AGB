@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T09:17:53.210Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="v84CN9jdYZKbnd2wK6ZZ" version="24.1.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-04-01T09:20:21.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="t2Q1-icLR5bKYtO4QLJo" version="24.1.0" type="github" pages="5">
   <diagram name="Sample_pre-processing" id="52a04d89-c75d-2922-d76d-85b35f80e030">
     <mxGraphModel dx="947" dy="1318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
@@ -138,8 +138,8 @@
             <mxPoint x="722" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B6u1tit1Yw2ISfp9a53N-26" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="652.5" y="260" width="120" height="60" as="geometry" />
+        <mxCell id="B6u1tit1Yw2ISfp9a53N-26" value="&lt;div&gt;- Repeat class&lt;/div&gt;&lt;div&gt;- Repeat family&lt;/div&gt;&lt;div&gt;- TE copy number&lt;/div&gt;&lt;div&gt;- Total masked length (bp.)&lt;/div&gt;&lt;div&gt;- TE family abundance in genome (%)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Verdana;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="230" width="239" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
