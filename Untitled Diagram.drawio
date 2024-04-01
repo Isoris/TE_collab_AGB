@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T15:04:32.715Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="lPsHf7VvrZr7QVxZs4iA" version="24.1.0" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-04-01T15:07:18.393Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="Zq2W8XZFjAqM2MWkbo1V" version="24.1.0" type="github" pages="5">
   <diagram name="Sample_pre-processing" id="52a04d89-c75d-2922-d76d-85b35f80e030">
-    <mxGraphModel dx="947" dy="1318" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1338" dy="1462" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -94,7 +94,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Kjd17YVczxqBOYsQOCY1" name="EDTA_p1">
-    <mxGraphModel dx="1055" dy="1712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1338" dy="1712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -110,7 +110,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B6u1tit1Yw2ISfp9a53N-5" value="&lt;div&gt;1.2 Run EDTA in CDS mode &lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=20;fillColor=#E1D5E7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="260" y="60" width="280" height="70" as="geometry" />
+          <mxGeometry x="260" y="60" width="270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="B6u1tit1Yw2ISfp9a53N-36" value="&lt;div align=&quot;left&quot;&gt;EDTA.pl version 2.2.0&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;step 0 - prepare input directories&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;step 1 - generate sbatch commands&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;step 2 - EDTA on genomes 16 CPU RAM 16GB&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;whiteSpace=wrap;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;align=left;" vertex="1" parent="B6u1tit1Yw2ISfp9a53N-5">
+          <mxGeometry y="20" width="270" height="80" as="geometry" />
         </mxCell>
         <mxCell id="B6u1tit1Yw2ISfp9a53N-27" value="" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" edge="1" parent="1" source="B6u1tit1Yw2ISfp9a53N-7" target="B6u1tit1Yw2ISfp9a53N-26">
           <mxGeometry relative="1" as="geometry" />
@@ -119,7 +122,7 @@
           <mxGeometry x="620" y="160" width="165" height="50" as="geometry" />
         </mxCell>
         <mxCell id="B6u1tit1Yw2ISfp9a53N-8" value="&lt;div&gt;1.1 Download NCBI Refseq&lt;br&gt; CDS gene annotations&amp;nbsp; &lt;br&gt;&lt;/div&gt;" style="swimlane;html=1;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=#E1D5E7;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;swimlaneFillColor=#ffffff;align=center;rounded=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12" vertex="1" parent="1">
-          <mxGeometry x="20" y="-40" width="255" height="80" as="geometry">
+          <mxGeometry x="20" y="-30" width="255" height="80" as="geometry">
             <mxRectangle x="245" y="-106" width="280" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -162,7 +165,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="B6u1tit1Yw2ISfp9a53N-34" value="&lt;b&gt;Output&lt;/b&gt;&lt;br&gt;Supplementary Table 2" style="html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=2;fontFamily=Verdana;fontSize=12;align=center;shape=mxgraph.ios7ui.horLines;" vertex="1" parent="1">
-          <mxGeometry x="618" y="340" width="165" height="50" as="geometry" />
+          <mxGeometry x="617" y="340" width="165" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
